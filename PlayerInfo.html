@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <script src="./PlayerInfoSwitch.js"></script>
+    <div class="ReturnOptions">
+        <div class="ReturnOption">
+            <a href="index.html" class="OptionItem">
+                <img src="./css/HomeButton.png" alt="Icon" class="icon">
+                <span class="text">Home</span>
+            </a>
+
+            <a href="History.html" class="OptionItem">
+                <img src="./css/HistoryButton.png" alt="Icon" class="icon">
+                <span class="text">History</span>
+            </a>
+
+            <a href="index.html" class="OptionItem">
+                <img src="./css/PlayerButton.png" alt="Icon" class="icon">
+                <span class="text">Player Info</span>
+            </a>
+
+            <a href="FixturesResults.html" class="OptionItem">
+                <img src="./css/FixturesButton.png" alt="Icon" class="icon">
+                <span class="text">Fixtures and results</span>
+            </a>
+
+            <a href="index.html" class="OptionItem">
+                <img src="./css/GroupButton.png" alt="Icon" class="icon">
+                <span class="text">Group table</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="MainHeader">
+        <header>
+            <h1 class="SubHeading">Player information</h1>
+        </header>
+        <img src="./css/czechFlagNoBg.png" style="width: 15vh;">
+    </div>
+
+    
+
+    <div style="display: grid; grid-template-columns: repeat(5, 1fr);">
+            <div>
+                <h2 style="padding: 0 20vh; margin: 2vh 0vh 0vh .5vh">Forward</h2>
+                <div class="gridView">
+                    <div class="gridItem">
+                        <p class="imageName">Patrik Schick</p>
+                        <img src="./css/players/PatrikSchick.jpg" alt="PatrikSchick">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Adam Hložek</p>
+                        <img src="./css/players/Adam Hložek.jpg" alt="Adam Hložek">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Tomáš Chorý</p>
+                        <img src="./css/players/Tomáš Chorý.jpg" alt="Tomáš Chorý">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Jan Kuchta</p>
+                        <img src="./css/players/Jan Kuchta.jpg" alt="Jan Kuchta">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Mojmír Chytil</p>
+                        <img src="./css/players/Mojmír Chytil.jpg" alt="Mojmír Chytil">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Václav Černý</p>
+                        <img src="./css/players/Václav Černý.jpg" alt="Václav Černý">
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2 style="padding: 0 3vh; margin: 2vh 0vh 0vh .5vh">Midfield</h2>
+                <div class="gridView" style="padding: 6vh 0 0 5vh;">
+                    <div class="gridItem">
+                        <p class="imageName">Tomáš Souček</p>
+                        <img src="./css/players/Tomáš Souček.jpg" alt="Tomáš Souček">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Antonín Barák</p>
+                        <img src="./css/players/Antonín Barák.jpg" alt="Antonín Barák">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Alex Král</p>
+                        <img src="./css/players/Alex Král.jpg" alt="Alex Král">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Lukáš Provod</p>
+                        <img src="./css/players/Lukáš Provod.jpg" alt="Lukáš Provod">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Ondřej Lingr</p>
+                        <img src="./css/players/Ondřej Lingr.jpg" alt="Ondřej Lingr">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Matěj Jurásek</p>
+                        <img src="./css/players/Matěj Jurásek.jpg" alt="Matěj Jurásek">
+                    </div>
+                </div>
+            </div>
+
+            <div class="GridSelectedPlayer">
+                <h1 id="GridSelectedPlayerName">Matěj Jurásek</h1>
+                <img src="./css/players/Matěj Jurásek.jpg" alt="Matěj Jurásek" width="30%">
+                <h3>Player Stats</h3>
+                <ul id="playerStats">
+                    <li><strong>Club:</strong> Slavia Prague</li>
+                    <li><strong>Position:</strong> Midfielder/Winger</li>
+                    <li><strong>Total Appearances (2023/24 season):</strong> 25 matches</li>
+                    <li><strong>Total Goals (2023/24 season):</strong> 5 goals</li>
+                    <li><strong>Assists (2023/24 season):</strong> 1 assist</li>
+                    <li><strong>Minutes Played:</strong> 986 minutes</li>
+                    <li><strong>National Team Debut:</strong> 2024</li>
+                </ul>
+            </div>
+            
+
+
+
+            <div>
+                <h2 style="padding: 0 3vh; margin: 2vh 0vh 0vh .5vh">Defender</h2>
+                <div class="gridView" style="padding: 6vh 0vh 0vh 3vh;">
+                    <div class="gridItem">
+                        <p class="imageName">Vladimír Coufal</p>
+                        <img src="./css/players/Vladimír Coufal.jpg" alt="Vladimír Coufal">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Ladislav Krejčí</p>
+                        <img src="./css/players/Ladislav Krejčí.jpg" alt="Ladislav Krejčí">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Robin Hranáč</p>
+                        <img src="./css/players/Robin Hranáč.jpg" alt="Robin Hranáč">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">David Jurásek</p>
+                        <img src="./css/players/David Jurásek.jpg" alt="David Jurásek">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Tomáš Holeš</p>
+                        <img src="./css/players/Tomáš Holeš.jpg" alt="Tomáš Holeš">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Adam Gabriel</p>
+                        <img src="./css/players/Adam Gabriel.jpg" alt="Adam Gabriel">
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2 style="padding: 0 1vh; margin: 2vh 0vh 0vh 0vh">Goalkeeper</h2>
+                <div class="gridView" style="padding: 6vh 0vh 0vh 1vh;">
+                    <div class="gridItem">
+                        <p class="imageName">Jindřich Staněk</p>
+                        <img src="./css/players/Jindřich Staněk.jpg" alt="Jindřich Staněk">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Tomáš Vaclík</p>
+                        <img src="./css/players/Tomáš Vaclík.jpg" alt="Tomáš Vaclík">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Matěj Kovář</p>
+                        <img src="./css/players/Matěj Kovář.jpg" alt="Matěj Kovář">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Jiří Pavlenka</p>
+                        <img src="./css/players/Jiří Pavlenka.jpg" alt="Jiří Pavlenka">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Vítězslav Jaroš</p>
+                        <img src="./css/players/Vítězslav Jaroš.jpg" alt="Vítězslav Jaroš">
+                    </div>
+                    <div class="gridItem">
+                        <p class="imageName">Tomáš Koubek</p>
+                        <img src="./css/players/Tomáš Koubek.jpg" alt="Tomáš Koubek">
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
